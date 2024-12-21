@@ -1,0 +1,78 @@
+/* Styles for the entire application */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #007bff; /* Blue color */
+}
+
+/* Hide elements by default */
+.hidden {
+  display: none;
+}
+
+/* Style for the lesson page */
+#lessonContent {
+  margin-top: 20px;
+}
+
+.hand-sign-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hand-sign {
+  margin: 10px;
+  text-align: center;
+}
+
+.hand-sign img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+/* Style for the quiz page */
+#quizContent {
+  margin-top: 20px;
+}
+
+#quizImage {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  width: 100px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+#resultMessage {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#score {
+  font-weight: bold;
+}
